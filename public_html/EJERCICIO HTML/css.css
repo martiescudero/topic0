@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid black;
+    margin-bottom: 80px;
+}
+img{
+    width: 50%;
+}
+form{
+    width: 50%;
+    margin-left: 20%;
+}
+form input, form select, form textarea{
+    display:block;
+    margin-bottom: 30px;
+}

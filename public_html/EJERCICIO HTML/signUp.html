@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>6. SIGN UP </h1>
+            <nav>
+                <ul>
+
+                    <li><a href="index.html">LIST</a></li>
+                    <li><a href="expenses.html">EXPENSES</a></li>
+                    <li><a href="files.html">FILES</a></li>
+                    <li><a href="signUp.html">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <form action="" method="">
+            <label for="nombre" >Nombre</label>
+            <input type="text"  name="nombre" autofocus required>
+            <label for="apellido">Apellido</label>
+            <input type="text"  name="apellido" required>
+            <label for="mail">Mail</label>
+            <input type="email" name="mail" required> 
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento">
+            <label for="deporteFavorito">¿Cuál es tu deporte favorito?</label>
+            <select name="deporteFavorito">
+                <option value="Fútbol">Fútbol</option>
+                <option value="Tenis">Tenis</option>
+                <option value="Natación">Natación</option>
+                <option value="Boxeo">Boxeo</option>
+                <option value="Golf">Golf</option>
+            </select>
+            <label for="bio">Biografía</label>
+            <textarea name="bio" maxlength="200" placeholder="Breve descripción" required></textarea>
+            
+            <button  type="reset" >CANCELAR</button>
+            <button  type="submit" >REGISTRARME</button>
+            
+        </form>
+    </body>
+</html>
